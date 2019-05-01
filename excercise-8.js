@@ -9,7 +9,7 @@ function pasanganTerbesar(num) {
       pasangan = numStr[i] + numStr[i+1];
     }
   }
-  return pasangan;
+  return parseInt(pasangan);
 }
 
 // TEST CASES
