@@ -1,6 +1,6 @@
-function dataHandling2 (input) {
-  var arr = input;
+var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 
+function dataHandling2 (arr) {
   // splice
   arr.splice(1, 1, arr[1] + 'Elsharawy');
   arr.splice(2, 1, 'Provinsi ' + arr[2]);
@@ -44,5 +44,4 @@ function dataHandling2 (input) {
   console.log(newName);
 }
 
-var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 dataHandling2(input);
